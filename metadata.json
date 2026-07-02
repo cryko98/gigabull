@@ -1,0 +1,6 @@
+{
+  "name": "The GigaBull",
+  "description": "The official website of The GigaBull ($GIGABULL) - the toughest, most shredded memecoin on Solana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
