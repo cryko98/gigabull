@@ -13,8 +13,8 @@ export interface Quote {
 export const TOKEN_CONFIG = {
   name: 'The GigaBull',
   ticker: '$GIGABULL',
-  ca: 'xxxxxxxxxxxxxxxxxxxxxxxx',
-  telegram: 'https://t.me/gigabull_sol', // standard placeholder that users can easily change or use
+  ca: '37ynxJZYfpcrsPaGvdiL4JYMXCA8e9tf3H4Shzj7pump',
+  telegram: 'https://t.me/gigabullonsol',
   twitter: 'https://x.com/gigabull_sol',
   pumpfun: 'https://pump.fun',
   logo: 'https://cdn.shopify.com/s/files/1/0967/8087/8151/files/gigabull.jpg?v=1782997052',
