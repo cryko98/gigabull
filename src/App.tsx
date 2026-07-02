@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Copy, Check, Menu, X, ArrowRight, Wallet, Flame, TrendingUp, Compass, MessageSquare, Twitter, Layers, Lock } from 'lucide-react';
+import { Copy, Check, Menu, X, ArrowRight, Wallet, Flame, TrendingUp, Compass, MessageSquare, Layers, Lock } from 'lucide-react';
 import SmokeEffect from './components/SmokeEffect';
 import AlphaTerminal from './components/AlphaTerminal';
 import { TOKEN_CONFIG, BUY_STEPS, TOKENOMICS } from './data';
@@ -85,17 +85,6 @@ export default function App() {
               </svg>
             </a>
 
-            {/* Twitter/X Link */}
-            <a 
-              href={TOKEN_CONFIG.twitter} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-2.5 rounded-full bg-white/5 border border-white/10 text-gray-300 hover:text-white hover:border-white/20 hover:bg-white/10 transition-all duration-200"
-              title="Twitter / X"
-            >
-              <Twitter className="w-4 h-4" />
-            </a>
-
             {/* Buy now on pump.fun */}
             <a 
               href={TOKEN_CONFIG.pumpfun}
@@ -161,15 +150,6 @@ export default function App() {
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.37.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .24z"/>
                 </svg>
                 Telegram
-              </a>
-              <a 
-                href={TOKEN_CONFIG.twitter}
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl bg-white/5 border border-white/10 text-sm font-bold text-gray-300"
-              >
-                <Twitter className="w-4 h-4" />
-                Twitter
               </a>
             </div>
             <a 
@@ -532,17 +512,6 @@ export default function App() {
                 <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.37.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .24z"/>
                 </svg>
-              </a>
-
-              {/* Twitter */}
-              <a 
-                href={TOKEN_CONFIG.twitter}
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-2 rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:border-white/20 transition-all"
-                title="Twitter / X"
-              >
-                <Twitter className="w-3.5 h-3.5" />
               </a>
             </div>
           </div>
